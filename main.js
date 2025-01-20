@@ -160,7 +160,7 @@ function firstPerson(){
   forwardVector.normalize();
   camera.position.add(forwardVector.multiplyScalar(speed*speedDelta));
   checkBoundaries()
-  console.log(camera.position);
+  //console.log(camera.position);
 }
 
 function checkBoundaries(){
